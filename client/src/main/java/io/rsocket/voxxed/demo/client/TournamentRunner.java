@@ -34,8 +34,5 @@ public class TournamentRunner implements CommandLineRunner {
 	            logger.info(JsonFormat.printer().print(record));
             }
         }
-
-        // Exit
-        System.exit(0);
     }
 }

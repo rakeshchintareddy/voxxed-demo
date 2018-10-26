@@ -23,8 +23,5 @@ public class RecordsRunner implements CommandLineRunner {
     for (Record record: recordsService.records(request).toIterable()) {
       logger.info(JsonFormat.printer().print(record));
     }
-
-    // Exit
-    System.exit(0);
   }
 }

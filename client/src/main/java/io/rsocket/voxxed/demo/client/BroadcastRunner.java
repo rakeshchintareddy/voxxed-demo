@@ -20,7 +20,7 @@ public class BroadcastRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-    	/*RankingRequest request =
+    	RankingRequest request =
 			    RankingRequest.newBuilder()
 			                  .addRecords(Record.newBuilder()
 			                                    .setId(0)
@@ -38,8 +38,5 @@ public class BroadcastRunner implements CommandLineRunner {
 	                                           .block();
 
 	    System.out.println(result);
-
-      // Exit
-      System.exit(0);*/
     }
 }

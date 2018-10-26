@@ -20,6 +20,10 @@ dependencies {
     compile "io.netifi.proteus:proteus-spring-boot-starter:$proteusSpringVersion"
 
     compile "com.google.protobuf:protobuf-java-util:$protobufVersion"
+
+    //export micrometer/prometheus
+    compile 'io.netifi.proteus:proteus-metrics-micrometer:1.5.0-RC'
+    compile 'io.netifi.proteus:proteus-tracing-openzipkin:1.5.0-RC'
 }
 
 configurations.all {
